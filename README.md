@@ -39,16 +39,16 @@ pentru noi si obtinem o aproximare a acestora.
 
 Task 4:
 
--visualise_image: citeste o anumita linie din train_mat pe care o transforma,
+- visualise_image: citeste o anumita linie din train_mat pe care o transforma,
 la randul ei, intr-o alta matrice pentru a obtine o orientare corecta a 
 imaginii, dupa care e convertita pt a fi valida. Astfel, aceasta functie are 
 scopul de a interpreta informatiile din imagini reprezentate de o linie in 
 matricea data.
 
--prepare_data: datle de antrenament sunt incarcate dintr-un fisier dat in 
+- prepare_data: datle de antrenament sunt incarcate dintr-un fisier dat in 
 matricea train_mat, si etichetele respective in vectorul train_val 
 
--magic_with_pca: ca functiile anterioare, aceasta utilizeaza PCA pt a retine
+- magic_with_pca: ca functiile anterioare, aceasta utilizeaza PCA pt a retine
 informatia cea mai importamta din matrice. Asemanator cu ceea ce am facut 
 anterior, calculam matricea de covarianta, vectorii si valorile proprii ale
 acesteia. Sortam valorile proprii descrescator, iar matricea S e reordonata in
@@ -56,12 +56,12 @@ functie de indicii stocati in idxs. Calculam proiectia pe noile axe determinate
 de PC dupa care obtinem o aproximare a matricei de antrenament prin inmultirea
 cu transpusa matricei de vectori proprii.
 
--prepare_photo: vectorul sir e initializat drep un vector linie de 784 elemente,
+- prepare_photo: vectorul sir e initializat drep un vector linie de 784 elemente,
 adica 28 x 28 pixeli. Mai apoi, inversam pixelii imaginii im, scazand valoarea
 255 adica val max dintr-un pixel intr-o fotografie grayscale, obtinand o imagine
 negativa. Convertim transpusa intr-un vector de tip linie, cu un singur rand.
 
--KNN: in matricea distance retinem distantele euclidiene dintre imaginea de
+- KNN: in matricea distance retinem distantele euclidiene dintre imaginea de
 antrenament si cea test. Calculam predictia valorilor celor mai apropiate
 imagini din setul de antrenament fata de imaginea test prin intermediul medianei
 etichetelor a k imagini, adica cele mai apropiate. 
