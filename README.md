@@ -66,7 +66,7 @@ antrenament si cea test. Calculam predictia valorilor celor mai apropiate
 imagini din setul de antrenament fata de imaginea test prin intermediul medianei
 etichetelor a k imagini, adica cele mai apropiate. 
 
--classify_image: functia reduce dimensiunea imaginii test - magic_with_pca si
+- classify_image: functia reduce dimensiunea imaginii test - magic_with_pca si
 face o predictie pe baza vecinilor cei mai apropiati din setul de antrenament - KNN
 
 Consider ca functiile pe care le-am avut de implementat au fost explicate foarte
